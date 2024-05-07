@@ -1,6 +1,13 @@
 import { useEffect,useState } from "react"
 
-function Cartproduct({img,title,size,price,cart,cartCopy,setCartCopy}){
+import { IoIosTrash } from "react-icons/io"
+function Cartproduct({img,title,size,price,cartCopy,cart,setCart,setCartCopy}){
+    const handleDelete=(product)=>{
+        const items=cart.filter((items)=>items.title !==title)
+        setCart(items);
+        localStorage.setItem("cart",JSON.stringify(items))
+        
+    }
    
     function handleCartAction(action,product){
 if(action==="increment"){setCartCopy(prev=>[...prev,product])
@@ -31,9 +38,9 @@ if(action==="increment"){setCartCopy(prev=>[...prev,product])
 <p className="border py-2 px-2">{cartCopy.filter(item=>item.title===title).length}</p>
 <button className="border py-2 px-2"  onClick={()=>handleCartAction("increment",{img,title,size,price})}>+</button>
 </div>
-<p className="flex items-center">{}
-
-
+<p className="flex items-center">
+<IoIosTrash className="text-red-500 cursor-pointer "
+onClick={handleDelete}/>
 
 
 

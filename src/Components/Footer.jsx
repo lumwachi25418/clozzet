@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer className=" bg-stone-200" >
-            <div >
+            <div className="" >
 
  
             <div className="container mx-auto justify-between">
@@ -43,22 +43,21 @@ function Footer(){
             
                 <h1 className="font-bold">Contact Us</h1>
                 <div class="flex">
-                <img src="./src/assets/images/email.png"/>
+                <img className="size-5" src="./src/assets/images/email.png"/>
                 
                 <p>contact@clozzet.com</p>
                 
                 </div>
                 <div class="flex">
-                <img src="./src/assets/images/phone.png"/>
+                <img className="size-5" src="./src/assets/images/phone.png"/><p>0796323224</p>
                 
-                <p>254-700-333-333</p>
-                
+                               
                 </div>
-                <h2>Follow us</h2>
+                <h2 className="flex">Follow us</h2>
                 <div className="flex w-full max-w-12 gap-3 ">
-                    <img src="./src/assets/images/facebook.png "/>
-                    <img src="./src/assets/images/instagram.png"/>
-                    <img src="./src/assets/images/twitter.png"/>
+                    <img className="size-8" src="./src/assets/images/facebook.png "/>
+                    <img className="size-8" src="./src/assets/images/instagram.png"/>
+                    <img className="size-8" src="./src/assets/images/twitter.png"/>
                 </div>
                 </div>
                 </div>

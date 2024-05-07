@@ -33,32 +33,32 @@ function Shopvarieties({cart,setCart}){
             </div>
             <div className="flex flex-wrap justify-between items-center ">
 
-<Shopvariety img={leatherjacket} title="leather-jacket.png" price="Ksh 2,250"/>
-<Shopvariety img={quartz} title="Quartz men's" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={leatherjacket} title="leather-jacket.png" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={quartz} title="Quartz men's" price="Ksh 2,250"/>
 
-<Shopvariety img={denim} title="Women Denim Jeans" price="Ksh 2,250"/>
-<Shopvariety img={handbag} title="Browm handbag" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={denim} title="Women Denim Jeans" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={handbag} title="Browm handbag" price="Ksh 2,250"/>
             </div>
             <div className="flex flex-wrap justify-between items-center ">
 
-<Shopvariety img={unisex} title="Unisex Graphic T-shirt" price="Ksh 2,250"/>
-<Shopvariety img={bomber} title="Black Bomber Jacket" price="2,250"/>
-<Shopvariety img={pallazzo} title="Pleated pallazo pants" price="2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={unisex} title="Unisex Graphic T-shirt" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={bomber} title="Black Bomber Jacket" price="2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={pallazzo} title="Pleated pallazo pants" price="2,250"/>
 <Shopvariety img ={leather} title="Pure Leather Shoes" price="Ksh2,250"/>
             </div>
             <div className="flex flex-wrap justify-between items-center"> 
 
-<Shopvariety img={purple} title="Purple serpenti Purse" price="Ksh 2,250"/>
-<Shopvariety img={Airforce} title="Unisex Force sneakers" Price="Ksh 2,250"/>
-<Shopvariety img={cocktail} title="Blue Cocktail Dress" price="Ksh 2,250"/>
-<Shopvariety img={shoulder} title="Off-Shoulder Crop Top" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={purple} title="Purple serpenti Purse" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={Airforce} title="Unisex Force sneakers" Price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={cocktail} title="Blue Cocktail Dress" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={shoulder} title="Off-Shoulder Crop Top" price="Ksh 2,250"/>
             </div>
             <div className="flex flex-wrap justify-between items-center ">
 
-<Shopvariety img={pants} title="Airsense Pleated Pants" price="Ksh 2,250"/>
-<Shopvariety img={classy} title="Classy smart watch" price="Ksh 2,250"/>
-<Shopvariety img={blue} title="Blue Platform Heels" price="2,250"/>
-<Shopvariety img={knitted} title="Strip Knitted sweater" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={pants} title="Airsense Pleated Pants" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={classy} title="Classy smart watch" price="Ksh 2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={blue} title="Blue Platform Heels" price="2,250"/>
+<Shopvariety cart={cart} setCart={setCart} img={knitted} title="Strip Knitted sweater" price="Ksh 2,250"/>
             </div>
 
 

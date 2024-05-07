@@ -17,7 +17,7 @@ function Nav({cart}){
         </ul>
         <ul className="flex relative gap-5 items-center">
             <Link to="/cartpage">
-                {""}
+                
          <li><span className="w-[2em] h-[2em] absolute bg-green-400 rounded-full justify-center items-center flex left-[3em]">{cart? cart.length:0}</span> <FaShoppingCart size={50}/>
 </li>
 </Link>
