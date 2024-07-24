@@ -1,5 +1,5 @@
 import Shopvariety from "./Shopvariety"
-import jeans from "../assets/images/ragged-jeans.png"
+// import jeans from "../assets/images/ragged-jeans.png"
 import sweatshirts from "../assets/images/sweatshirts.png"
 import Banquet from "../assets/images/slim-banquet-dress.png"
 import bluedenim from "../assets/images/denim.png"
